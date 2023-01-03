@@ -4,7 +4,5 @@
 salário = float(input('Qual o salário do funcionário? '))
 novo_salário = salário + (salário * (15/100))
 print(
-    'Baseado no valor salarial R${:.2f},\no novo salário com acrésimo de 15%  é R${:.2f}'.format
-    (salário, novo_salário))
-
-# teste-comentário=
+    'Baseado no salário R${:.2f}, o novo salário, acrescido 15% é R${:.2f}'.
+    format(salário, novo_salário))
