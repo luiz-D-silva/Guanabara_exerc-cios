@@ -8,3 +8,5 @@ lista = [n1, n2, n3, n4]
 shuffle(lista)
 print('A nova ordem de apresentação será: ')
 print(lista)
+
+# obs: é possível cair a mesma ordem!
