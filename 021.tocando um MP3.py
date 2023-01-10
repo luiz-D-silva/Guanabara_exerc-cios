@@ -2,4 +2,4 @@
 e reproduza o áudio de um arquivo MP3.'''
 from playsound import playsound
 
-playsound('mariotext.mp3')
+playsound('021_mariotext.mp3')
