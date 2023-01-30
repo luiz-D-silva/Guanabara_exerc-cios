@@ -6,9 +6,9 @@ perdeu.'''
 from random import randint
 from time import sleep  # faz o computador esperar para mostrar a resposta
 
-computador = randint(0, 5)  # faz o computador "pensar"/sortear
+computador = randint(1, 25)  # faz o computador "pensar"/sortear
 print('-=-'*20)
-print('Vou pensar em um número entre 0 e 5. Tente adivinhar...')
+print('Vou pensar em um número entre 1 e 25. Tente adivinhar...')
 print('-=-'*20)
 jogador = int(input('Em que número eu pensei? '))  # jogador tenta adivinhar
 print('PROCESSANDO...')
