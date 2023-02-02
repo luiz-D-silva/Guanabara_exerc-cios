@@ -3,7 +3,7 @@ nome = (input('Digite seu nome completo: '))
 print('Analisando seu nome...')
 print('Seu nome em maiúsculo é: ', (nome.upper()))
 print('Seu nome em minúsculo é: ', (nome.lower()))
-print('Seu nome tem ao todo', len(nome.strip()), 'letras')
+print('Seu nome tem ao todo', len(nome) - nome.count(' '), 'letras')
 print('Seu primeiro nome é', (nome.split()[
       0]), 'e ele tem', (len(nome.split()[0])), 'letras')
 print('Seu segundo nome é', (nome.split()[
