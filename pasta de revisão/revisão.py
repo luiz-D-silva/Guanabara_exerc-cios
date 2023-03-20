@@ -1,2 +1,5 @@
-nome = str(input('Digite seu nome completo: ')).upper().strip().split()
-print('O primeiro nome é ', nome[0], 'e o último é ', nome[-1])
+km = float(input('Qual a distância da viagem em Km: '))
+if km <= 200:
+    print(f'O valor da passagem é R${km*0.50:.2f}')
+else:
+    print(f'O valor da passagem é R${km*0.45:.2f}')
